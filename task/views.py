@@ -21,3 +21,5 @@ def tarefa(request, numero):
     return HttpResponse("Tarefa: "+str(numero))
 def tarefa(request, ano, mes, dia):
     return HttpResponse("Tarefa: "+str(ano)+"/"+str(mes)+"/"+str(dia))
+def nome(request):
+    return HttpResponse("Maria do Carmo")
